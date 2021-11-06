@@ -10,7 +10,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-console.log('Type text to write it in the file');
+console.log('Type text and press Enter to write it in the file');
 writeStream.write('');
 
 rl.on('line', (line) => {
